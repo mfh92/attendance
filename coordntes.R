@@ -5,7 +5,7 @@
     #    'orSn' =  Southern CA regions.
     #    squares for all other regions.
 
-SclBy <- 500
+SclBy <- 500            ###  SclBy  is ALSO declared on the 'app.R' file, not just here. ###
 
 oR0   <- cbind( c(  74,  73,  75,  74,  74,  78,  78,  74,  73,  73,  72,  71,  70,  66,  66,  65,  63,  60,  59,  59,  61,  62,  63,  65,  66,  73,  74                                                                                                                                                                                                                                                                                                                                           ), 
                 c( 217, 214, 210, 210, 207, 203, 196, 196, 197, 198, 199, 199, 200, 200, 202, 202, 204, 210, 211, 214, 215, 215, 216, 216, 217, 217, 217                                                                                                                                                                                                                                                                                                                                           ) )/SclBy  # oR0
