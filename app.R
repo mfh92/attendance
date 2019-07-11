@@ -29,7 +29,8 @@ xLb <- paste0( 'def. Potential = ', c(
              'roughly estimated to be 40 math faculty per Institution' 
              ) )                                                      # 4 x-axis labels for '% Potential' PP style.
 
-SclBy <- 500                               # Using a ScaleFactor allows for projecting to a globe w/out distortion. Leaflet fails w/ large 'degrees', even though it is good for zoom + pan.  
+SclBy <- 500                               ###  SclBy  is ALSO declared on the 'coordts.txt' file, not just here. ###
+                                           # Using a ScaleFactor allows for projecting to a globe w/out distortion. Leaflet fails w/ large 'degrees', even though it is good for zoom + pan.  
                                            #  ex. 395 / 500 < 1 is safe for leaflet, but 395 > 90 is too distorted.  
 
 source( 'coordntes.R' )                    # create 27 objects ( or0 ... out12 ) from a text file in the same dir,
